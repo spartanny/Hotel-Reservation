@@ -1,5 +1,5 @@
 # Hotel-Reservation
-Repo to learn REST apis using electron framework. 
+Repo to learn REST apis using Express framework. 
 
 Will be addressing HLD for classic hotel reservation problem and implementing code off of that.
 
