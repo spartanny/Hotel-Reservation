@@ -12,3 +12,8 @@ API designing will be the first here
   - add hotel (admin centric)
   - add room (admin centric)
   - make reservation
+
+
+
+Usefule Links:
+- https://vercel.com/guides/using-express-with-vercel
