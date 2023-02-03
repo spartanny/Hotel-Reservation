@@ -7,22 +7,6 @@ const app: Express = express();
 app.use(express.json());
 const port = process.env.PORT;
 
-// Vercel Boilerplate test code
-
-app.get('/api', (req, res) => {
-  const path = `/api/item/${v4()}`;
-  res.setHeader('Content-Type', 'text/html');
-  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
-  res.end(`Hello! Go to item: <a href="${path}">${path}</a>`);
-});
-
-app.get('/api/item/:slug', (req, res) => {
-  const { slug } = req.params;
-  res.end(`Item: ${slug}`);
-});
-
-//
-
 // GET Requests
 app.get('/', (req: Request, res: Response) => {
   res.send('Express + TypeScript Server');
